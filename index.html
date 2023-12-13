@@ -1,199 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&amp;display=swap">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/b6b76fc27a.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&amp;display=swap"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b6b76fc27a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="app">
-        <div id="home">
-            <div id="navbar">
-                <ul>
-                    <li><a href="#About" data-text="About"><i class="fa-solid fa-user-secret" style="color: #050505;" ></i></a></li>
-                    <li><a href="#Skills" data-text="Skills"><i class="fa-solid fa-screwdriver-wrench" style="color: #050505;"></i></a></li>
-                    <li><a href="#Projects" data-text="Projects"><i class="fa-solid fa-briefcase" style="color: #050505;"></i></a></li>
-                    <li><a href="#footer" data-text="Contact"><i class="fa-solid fa-phone" style="color: #050505;"></i></a></li>
-                </ul>
-            </div>
-            <div id="main">
-                <div id="intro">
-                    <h1>Hello, I am Jaskaran Singh</h1>
-                    <h2>A Front-End Web-Developer specialised in modern web technologies</h2>
-                </div>
-                <div id="tags">
-                    <ul>
-                        <li data-text="E-mail"><a href="mailto:jaskaran1519@gmail.com" target="_blank"><i class="fa-solid fa-message" style="color: #050505;"></i></a></li>
-                        <li data-text="WhatsApp"><a href="https://wa.me/+916284607938" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #050505;"></i></a></li>
-                        <li data-text="Github"><a href="" target="_blank" ><i class="fa-brands fa-github" style="color: #030303;"></i></a></li>
-                    </ul>
-                </div>
-                <div id="hover-text">
-
-                </div>
-            </div>
+      <div id="home">
+        <div id="navbar">
+          <ul>
+            <li>
+              <a href="#About" data-text="About"
+                ><i class="fa-solid fa-user-secret" style="color: #050505"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#Skills" data-text="Skills"
+                ><i
+                  class="fa-solid fa-screwdriver-wrench"
+                  style="color: #050505"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a href="#Projects" data-text="Projects"
+                ><i class="fa-solid fa-briefcase" style="color: #050505"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#footer" data-text="Contact"
+                ><i class="fa-solid fa-phone" style="color: #050505"></i
+              ></a>
+            </li>
+          </ul>
         </div>
-        <div id="About" class="hidden">
-            <div id="about-heading">
-                <h1>About Me</h1>
-            </div>
-            <div id="about-section">
-                <div id="left">
-                    <p>I am a self-trained web developer with a passion for crafting captivating and innovative web applications. Leveraging my strong problem-solving skills, I specialize in turning ideas into visually stunning and fully functional digital experiences.</p>
-                    <p>
-                        I have some freelancing experience in developing service based websites. Picture me as a digital architect, constructing web applications that not only function seamlessly but also captivate with their visual allure.
-                    </p>
-                </div>
-                
-                <img src="./images/about.png" alt="">
-            </div>
-        </div>
-        <div id="Skills" class="hidden">
-            <div id="skills-heading">
-                <h1>
-                    Skill-Set
-                </h1>
-            </div>
-            <div id="skills-section">
-                    <div id="div1" class="skill-data">
-                        <h2>
-                            HTML
-                        </h2>
-                        <p>
-                            Enough knowledge and hands-on expirience to create anything
-                        </p>
-                    </div>
-                    <div id="div2" class="skill-data">
-                        <h2>
-                            CSS
-                        </h2>
-                        <p>
-                            Good understanding of position, flex, grid and knowledge of tailwind CSS
-                        </p>
-                    </div>
-                    <div id="div3" class="skill-data">
-                        <h2>
-                            JAVASCRIPT
-                        </h2>
-                        <p>
-                            Solid knowledge of DOM, data structures and algorīthms and have worked on some real life projects
-                        </p>
-                    </div>
-                    <div id="div4" class="skill-data">
-                        <h2>
-                            REACT + NEXT.JS
-                        </h2>
-                        <p>
-                            Great knowledge of components based coding and the react framework NEXT 
-                        </p>
-                    </div>
-                    <div id="div5" class="skill-data">
-                        <h2>
-                            C++
-                        </h2>
-                        <p>
-                            My first programming language and have great experience with it
-                        </p>
-                    </div>
-                    <div id="div6" class="skill-data">
-                        <h2>
-                            NODE.JS
-                        </h2>
-                        <p>
-                            Knowledge of back-end concepts and API Integration
-                        </p>
-                    </div>
-            </div>
-        </div>
-        <div id="Projects" class="hidden">
-            <div id="projects-heading">
-                <h1>
-                    Some of my work
-                </h1>
-            </div>
-            
-                <section class="hero-section">
-                    <div class="card-container">
-                        <div class="card">
-                            <div class="card-background"
-                                style="background-image:url('./images/p3.webp');">
-                            </div>
-                            <div class="content">
-                                <a href="https://www.google.com" target="_blank"><i class="fa-solid fa-code"></i></a>
-                            </div>
-                        </div>
-                        <div class="card hidden">
-                            <div class="card-background"
-                                style="background-image:url('./images/calculator.png');">
-                            </div>
-                            <div class="content">
-                                <a href="https://www.google.com" target="_blank"><i class="fa-solid fa-code"></i></a>
-                            </div>
-                        </div>
-                        <div class="card hidden">
-                            <div class="card-background"
-                                style="background-image:url('./images/p5.jpg');">
-                            </div>
-                            <div class="content">
-                                <a href="https://www.google.com" target="_blank"><i class="fa-solid fa-code"></i></a>
-                            </div>
-                        </div>
-                        <div class="card hidden">
-                            <div class="card-background"
-                                style="background-image:url('./images/p6.png');">
-                            </div>
-                            <div class="content">
-                                <a href="https://jaskaran1519.github.io/Eazweb/" target="_blank"><i class="fa-solid fa-code"></i></a>
-                            </div>
-                        </div>
-                        <div class="card hidden">
-                            <div class="card-background"
-                                style="background-image:url('./images/p1.webp');">
-                            </div>
-                            <div class="content">
-                                <a href="https://www.google.com" target="_blank"><i class="fa-solid fa-code"></i></a>
-                            </div>
-                        </div>
-                        <div class="card hidden">
-                            <div class="card-background"
-                                style="background-image:url('./images/project4.webp');">
-                            </div>
-                            <div class="content">
-                                <a href="https://www.google.com" target="_blank"><i class="fa-solid fa-code"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-        </div>
-        <div id="footer" class="hidden">
-            <footer>
-                <div class="gooey-animations"></div>
-                <h1><span>Thank for visiting, hope you like it</span></h1>
-              </footer>
-              
-              <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-                <defs>
-                  <filter id="goo">
-                    <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
-                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 15 -7" result="goo" />
-                    <feBlend in="SourceGraphic" in2="goo" />
-                    </filter>
-                </defs>
-              </svg>
-              
-              
-              <svg viewbox="0 0 1440 328" width="100vw">
-                  <defs>
-                      <clipPath id="wave" clipPathUnits="objectBoundingBox" transform="scale(0.00069444444, 0.00304878048)">
-                          <path d="M504.452 27.7002C163.193 -42.9551 25.9595 38.071 0 87.4161V328H1440V27.7002C1270.34 57.14 845.711 98.3556 504.452 27.7002Z"/>
-                      </clipPath>
-                  </defs>
-              </svg>
+        <div id="main">
+          <div id="intro">
+            <h1>Hello, I am Jaskaran Singh</h1>
+            <h2>
+              A Front-End Web-Developer specialised in modern web technologies
+            </h2>
+          </div>
+          <div id="tags">
+            <ul>
+              <li data-text="E-mail">
+                <a href="mailto:jaskaran1519@gmail.com" target="_blank"
+                  ><i class="fa-solid fa-message" style="color: #050505"></i
+                ></a>
+              </li>
+              <li data-text="WhatsApp">
+                <a href="https://wa.me/+916284607938" target="_blank"
+                  ><i class="fa-brands fa-whatsapp" style="color: #050505"></i
+                ></a>
+              </li>
+              <li data-text="Github">
+                <a href="https://github.com/Jaskaran1519" target="_blank"
+                  ><i class="fa-brands fa-github" style="color: #030303"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div id="hover-text"></div>
         </div>
       </div>
-<script type="module" src="main.js"></script>      
-</body>
+      <div id="About" class="hidden">
+        <div id="about-heading">
+          <h1>About Me</h1>
+        </div>
+        <div id="about-section">
+          <div id="left">
+            <p>
+              I am a self-trained web developer with a passion for crafting
+              captivating and innovative web applications. Leveraging my strong
+              problem-solving skills, I specialize in turning ideas into
+              visually stunning and fully functional digital experiences.
+            </p>
+            <p>
+              I have some freelancing experience in developing service based
+              websites. Picture me as a digital architect, constructing web
+              applications that not only function seamlessly but also captivate
+              with their visual allure.
+            </p>
+          </div>
+
+          <img src="./images/about.png" alt="" />
+        </div>
+      </div>
+      <div id="Skills" class="hidden">
+        <div id="skills-heading">
+          <h1>Skill-Set</h1>
+        </div>
+        <div id="skills-section">
+          <div id="div1" class="skill-data">
+            <h2>HTML</h2>
+            <p>Enough knowledge and hands-on expirience to create anything</p>
+          </div>
+          <div id="div2" class="skill-data">
+            <h2>CSS</h2>
+            <p>
+              Good understanding of position, flex, grid and knowledge of
+              tailwind CSS
+            </p>
+          </div>
+          <div id="div3" class="skill-data">
+            <h2>JAVASCRIPT</h2>
+            <p>
+              Solid knowledge of DOM, data structures and algorīthms and have
+              worked on some real life projects
+            </p>
+          </div>
+          <div id="div4" class="skill-data">
+            <h2>REACT + NEXT.JS</h2>
+            <p>
+              Great knowledge of components based coding and the react framework
+              NEXT
+            </p>
+          </div>
+          <div id="div5" class="skill-data">
+            <h2>C++</h2>
+            <p>
+              My first programming language and have great experience with it
+            </p>
+          </div>
+          <div id="div6" class="skill-data">
+            <h2>NODE.JS + MongoDB</h2>
+            <p>Basic Knowledge of back-end concepts and API Integration</p>
+          </div>
+        </div>
+      </div>
+      <div id="Projects" class="hidden">
+        <div id="projects-heading">
+          <h1>Some of my work</h1>
+        </div>
+
+        <section class="hero-section">
+          <div class="card-container">
+            <div class="card">
+              <div
+                class="card-background"
+                style="background-image: url('./images/p3.webp')"
+              ></div>
+              <div class="content">
+                <a href="https://www.google.com" target="_blank"
+                  ><i class="fa-solid fa-code"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card hidden">
+              <div
+                class="card-background"
+                style="background-image: url('./images/calculator.png')"
+              ></div>
+              <div class="content">
+                <a href="https://www.google.com" target="_blank"
+                  ><i class="fa-solid fa-code"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card hidden">
+              <div
+                class="card-background"
+                style="background-image: url('./images/p5.jpg')"
+              ></div>
+              <div class="content">
+                <a href="https://www.google.com" target="_blank"
+                  ><i class="fa-solid fa-code"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card hidden">
+              <div
+                class="card-background"
+                style="background-image: url('./images/p6.png')"
+              ></div>
+              <div class="content">
+                <a href="https://jaskaran1519.github.io/Eazweb/" target="_blank"
+                  ><i class="fa-solid fa-code"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card hidden">
+              <div
+                class="card-background"
+                style="background-image: url('./images/p1.webp')"
+              ></div>
+              <div class="content">
+                <a href="https://www.google.com" target="_blank"
+                  ><i class="fa-solid fa-code"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card hidden">
+              <div
+                class="card-background"
+                style="background-image: url('./images/project4.webp')"
+              ></div>
+              <div class="content">
+                <a href="https://www.google.com" target="_blank"
+                  ><i class="fa-solid fa-code"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="footer" class="hidden">
+        <footer>
+          <div class="gooey-animations"></div>
+          <h1><span>Thank for visiting, hope you like it</span></h1>
+        </footer>
+
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur
+                in="SourceGraphic"
+                stdDeviation="15"
+                result="blur"
+              />
+              <feColorMatrix
+                in="blur"
+                mode="matrix"
+                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 15 -7"
+                result="goo"
+              />
+              <feBlend in="SourceGraphic" in2="goo" />
+            </filter>
+          </defs>
+        </svg>
+
+        <svg viewbox="0 0 1440 328" width="100vw">
+          <defs>
+            <clipPath
+              id="wave"
+              clipPathUnits="objectBoundingBox"
+              transform="scale(0.00069444444, 0.00304878048)"
+            >
+              <path
+                d="M504.452 27.7002C163.193 -42.9551 25.9595 38.071 0 87.4161V328H1440V27.7002C1270.34 57.14 845.711 98.3556 504.452 27.7002Z"
+              />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
 </html>
