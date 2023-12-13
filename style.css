@@ -110,7 +110,7 @@ body canvas {
   padding: 0;
   align-items: center;
 }
-#intro h2{
+#intro h2 {
   font-size: 3vh;
 }
 @media screen and (max-width: 786px) {
@@ -124,8 +124,8 @@ body canvas {
     font-size: 3vh;
   }
 }
-@media screen and (max-width:1050px){
-  #hover-text{
+@media screen and (max-width: 1050px) {
+  #hover-text {
     display: none;
   }
 }
@@ -164,14 +164,13 @@ body canvas {
   }
 }
 
-
-#About{
+#About {
   width: 90%;
   height: 100vh;
   margin: 0 auto;
 }
 
-#about-heading h1{
+#about-heading h1 {
   font-size: 5vh;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
@@ -179,35 +178,34 @@ body canvas {
   text-shadow: 0 0 5px #ffffff, 0 0 20px #000, 0 0 30px #000;
 }
 
-#about-section{
+#about-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 100px;
   margin-top: 5vh;
 }
-#left{
+#left {
   margin-right: 5%;
 }
-#about-section p{
-  font-size: 150%;
+#about-section p {
+  font-size: 1.5rem;
   text-align: left;
   line-height: 1.6;
   word-spacing: 1vh;
 }
-#about-section img{
+#about-section img {
   width: 400px;
 }
 
-@media screen and (max-width: 1050px){
-  #About{
+@media screen and (max-width: 1050px) {
+  #About {
     height: auto;
-    
   }
-  #about-heading h1{
+  #about-heading h1 {
     font-size: 5vh;
   }
-  #about-section{
+  #about-section {
     display: flex;
     flex-direction: column-reverse;
   }
@@ -218,25 +216,24 @@ body canvas {
     width: 20vh;
   } */
 }
-@media screen and (max-width: 786px){
-  #About{
+@media screen and (max-width: 786px) {
+  #About {
     height: auto;
     padding: 0 30px;
   }
-  #about-heading h1{
+  #about-heading h1 {
     font-size: 4vh;
   }
-  #about-section{
+  #about-section {
     display: flex;
   }
   /* #about-section p{
     font-size: 1.5vh;
   } */
-  #about-section img{
+  #about-section img {
     display: none;
   }
 }
-
 
 #Skills {
   position: relative;
@@ -256,7 +253,7 @@ body canvas {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(10, 1fr);
-  grid-column-gap:50px;
+  grid-column-gap: 50px;
   grid-row-gap: 50px;
   margin: 5% 10%;
   /* align-items: center; */
@@ -281,49 +278,49 @@ body canvas {
   grid-area: 6 / 4 / 11 / 5;
 }
 
-.skill-data{
+.skill-data {
   padding: 5% 10%;
   border-radius: 2vh;
   background-color: hsl(0, 0%, 50%, 0.7);
 }
-.skill-data p{
+.skill-data p {
   line-height: 1.6;
   font-size: 2vh;
 }
 
-.skill-data:hover{
+.skill-data:hover {
   background-color: hsla(0, 2%, 70%, 0.7);
 }
 
-@media screen and (max-width:768px){
-  #Skills{
+@media screen and (max-width: 768px) {
+  #Skills {
     height: auto;
     width: 100%;
   }
-  #skills-section{
+  #skills-section {
     display: flex;
     flex-direction: column;
     padding-bottom: 50px;
     height: auto;
   }
-  #skills-heading h1{
+  #skills-heading h1 {
     font-size: 3vh;
   }
 }
 
-@media screen and (max-width:1050px){
-  #Skills{
+@media screen and (max-width: 1050px) {
+  #Skills {
     height: auto;
     width: 100%;
   }
-  #skills-heading h1{
+  #skills-heading h1 {
     font-size: 5vh;
   }
-  .skill-data p{
+  .skill-data p {
     font-size: 15px;
   }
-  #skills-section{
-    grid-column-gap:10px;
+  #skills-section {
+    grid-column-gap: 10px;
     grid-row-gap: 10px;
   }
 }
@@ -333,12 +330,11 @@ body canvas {
   height: auto;
 }
 
-#projects-heading{
+#projects-heading {
   padding-top: 20px;
-
 }
 
-#projects-heading h1{
+#projects-heading h1 {
   font-size: 5vh;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
@@ -366,7 +362,7 @@ body canvas {
 .card {
   position: relative;
   width: 60vh; /* Set a specific width for each card */
-  height: 250px;  
+  height: 250px;
   transition: 0.3s ease;
 }
 
@@ -395,7 +391,7 @@ body canvas {
   transform: scale(0.9);
 }
 
-.card:hover > .content{
+.card:hover > .content {
   display: block;
   transition: 0.3s !important;
 }
@@ -412,7 +408,7 @@ body canvas {
   position: absolute;
   display: none;
 }
-.content i{
+.content i {
   font-size: 4vh;
   padding: 5px;
   color: black;
@@ -420,25 +416,24 @@ body canvas {
   background-color: white;
 }
 
-.content i:hover{
+.content i:hover {
   scale: 1.1;
   transition: 0.1s !important;
 }
-@media screen and (max-width:1050px){
-  #Projects{
+@media screen and (max-width: 1050px) {
+  #Projects {
     height: auto;
     width: 100%;
   }
-  #projects-heading h1{
+  #projects-heading h1 {
     font-size: 4vh;
   }
-  .content i{
+  .content i {
     font-size: 3vh;
   }
 }
 
-
-#footer{
+#footer {
   width: 100%;
   height: auto;
   position: relative;
@@ -470,7 +465,7 @@ footer h1 {
 }
 footer h1 span {
   font-weight: bold;
-  color: #FFA036;
+  color: #ffa036;
   text-shadow: 0 0 15px rgba(255, 160, 54, 0.4);
 }
 footer::after {
@@ -532,16 +527,15 @@ footer .ball {
     width: 0px;
     height: 0px;
   }
-}  
+}
 
-
-.hidden{
+.hidden {
   opacity: 0;
   filter: blur(2px);
   transform: translateY(35%);
   transition: 1s;
 }
-.show{
+.show {
   opacity: 1;
   filter: blur(0);
   transform: translateY(0);
